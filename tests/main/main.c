@@ -3,10 +3,10 @@
 
 static void runAllTests(void)
 {
-    RUN_TEST_GROUP(tst_vistmachine);
+  RUN_TEST_GROUP(TST_VISTMACHINE);
 }
 
 int main(int argc, const char* argv[])
 {
-    return UnityMain(argc, argv, runAllTests);
+  return UnityMain(argc, argv, runAllTests);
 }
